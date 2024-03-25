@@ -16,7 +16,7 @@ joplin.plugins.register({
         await joplin.commands.register({
             name: command,
             label: "Toggle DDDot Visibility",
-            iconName: "fas fa-braille",
+            iconName: "fas fa-id-card-o",
             execute: async () => {
                 await panel.toggleVisibility();
             },
